@@ -53,9 +53,7 @@ class Owner
       pet.each do |pe|
         pe.mood = "nervous"
       end
-      animal.each do |an|
-        an = []
-      end
+      animal = []
     end
   end
 
