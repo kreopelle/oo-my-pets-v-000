@@ -59,6 +59,9 @@ class Owner
     pets[:dogs].clear
   end
 
+  def list_pets
+    
+
   def self.count
     @@all.size
   end
