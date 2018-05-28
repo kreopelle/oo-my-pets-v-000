@@ -53,8 +53,10 @@ class Owner
       pets.each do |pet|
         pet.mood = "nervous"
       end
+      type.each do |animal|
+        animal.clear
+      end 
     end
-    pets = {:fishes => [], :cats => [], :dogs => []}
   end
 
   def self.count
