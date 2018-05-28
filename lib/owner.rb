@@ -53,8 +53,10 @@ class Owner
       pet.each do |pe|
         pe.mood = "nervous"
       end
-      type.pet.clear
     end
+    pets[:fishes].clear
+    pets[:cats].clear
+    pets[:dogs].clear
   end
 
   def self.count
