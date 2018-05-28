@@ -54,7 +54,6 @@ class Owner
         pe.mood = "nervous"
       end
       type.clear
-      end
     end
   end
 
