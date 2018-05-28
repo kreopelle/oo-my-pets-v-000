@@ -60,7 +60,8 @@ class Owner
   end
 
   def list_pets
-    
+    puts "I have #{pets[:fishes].length}"
+  end
 
   def self.count
     @@all.size
